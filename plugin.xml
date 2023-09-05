@@ -42,6 +42,8 @@
                 <string>fb-messenger</string>
                 <string>instagram</string>
                 <string>linkedin</string>
+                <string>oraclehcm</string>
+                <string>ilab</string>
             </array>
         </config-file>
         
