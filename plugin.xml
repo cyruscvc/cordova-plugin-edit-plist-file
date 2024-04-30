@@ -45,22 +45,21 @@
                 <string>oraclehcm</string>
             </array>
         </config-file>
-         <config-file parent="ADEUM_Settings" target="*-Info.plist">
-        <!-- Add your ADEUM_Settings here -->
-        <dict>
-            <key>ADEUM_Settings</key>
+        <config-file target="*-Info.plist" parent="">
             <dict>
-                <key>ForceWebviewInstrumentation</key>
-                <true/>
-                <key>ForceAjaxInstrumentation</key>
-                <false/>
-                <key>ADRUMExtUrlHttp</key>
-                <string>http://<your-domain>/adrum.cdn</string>
-                <key>ADRUMExtUrlHttps</key>
-                <string>https://<your-domain>/adrum.cdn</string>
+                <key>ADEUM_Settings</key>
+                <dict>
+                    <key>ForceWebviewInstrumentation</key>
+                    <true/>
+                    <key>ForceAjaxInstrumentation</key>
+                    <false/>
+                    <key>ADRUMExtUrlHttp</key>
+                    <string>http://<your-domain>/adrum.cdn</string>
+                    <key>ADRUMExtUrlHttps</key>
+                    <string>https://<your-domain>/adrum.cdn</string>
+                </dict>
             </dict>
-        </dict>
-    </config-file>
+        </config-file>
         
         
     </platform>
