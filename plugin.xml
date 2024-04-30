@@ -54,9 +54,9 @@
                     <key>ForceAjaxInstrumentation</key>
                     <false/>
                     <key>ADRUMExtUrlHttp</key>
-                    <string>http://<your-domain>/adrum.cdn</string>
+                    <string>http://fra-col.eum-appdynamics.com/adrum.cdn</string>
                     <key>ADRUMExtUrlHttps</key>
-                    <string>https://<your-domain>/adrum.cdn</string>
+                    <string>https://fra-col.eum-appdynamics.com/adrum.cdn</string>
                 </dict>
             </dict>
         </config-file>
